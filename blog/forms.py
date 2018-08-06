@@ -1,6 +1,6 @@
 from django import forms
+from .import models
 
 
 class AddForm(forms.Form):
-    a = forms.IntegerField()
-    b = forms.IntegerField()
+    cominput = forms.CharField()
